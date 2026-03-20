@@ -1,0 +1,58 @@
+import type { Patient } from "@/types/patient";
+
+export const patients: Patient[] = [
+  {
+    id: "1",
+    name: "Sarah Chen",
+    age: 42,
+    condition: "Type 2 Diabetes",
+    status: "stable",
+    lastVisit: "2025-03-18",
+    room: "4B-12",
+  },
+  {
+    id: "2",
+    name: "Marcus Webb",
+    age: 58,
+    condition: "Hypertension",
+    status: "review",
+    lastVisit: "2025-03-17",
+    room: "3A-08",
+  },
+  {
+    id: "3",
+    name: "Elena Ruiz",
+    age: 35,
+    condition: "Post-op recovery",
+    status: "stable",
+    lastVisit: "2025-03-19",
+    room: "5C-02",
+  },
+  {
+    id: "4",
+    name: "James Okonkwo",
+    age: 67,
+    condition: "CHF",
+    status: "critical",
+    lastVisit: "2025-03-19",
+    room: "ICU-1",
+  },
+  {
+    id: "5",
+    name: "Priya Sharma",
+    age: 29,
+    condition: "Asthma",
+    status: "stable",
+    lastVisit: "2025-03-15",
+    room: "2D-21",
+  },
+  {
+    id: "6",
+    name: "Tom Brennan",
+    age: 51,
+    condition: "COPD",
+    status: "review",
+    lastVisit: "2025-03-16",
+    room: "4B-05",
+  },
+];

@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #eef4f6;
+  --surface: #ffffff;
+  --surface2: #f0f7f9;
+  --border: #c8dce3;
+  --text: #163238;
+  --muted: #5a7580;
+  --accent: #0f766e;
+  --accent2: #0284c7;
+  --success: #047857;
+  --success-soft: #d1fae5;
+  --warning: #b45309;
+  --warning-soft: #fef3c7;
+  --danger: #b91c1c;
+  --danger-soft: #fee2e2;
+  --focus: #0d9488;
+}
+
+body {
+  background-color: var(--bg);
+  background-image: radial-gradient(
+    ellipse 120% 80% at 50% -20%,
+    rgb(224 242 241 / 0.9),
+    transparent
+  );
+  color: var(--text);
+  font-family: var(--font-geist-sans), system-ui, sans-serif;
+  min-height: 100vh;
+}
+
+.login-page-dot-patch {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background-color: transparent;
+  background-image:
+    radial-gradient(circle at center, rgb(15 118 110 / 0.2) 1.4px, transparent 1.4px),
+    radial-gradient(circle at center, rgb(2 132 199 / 0.13) 1px, transparent 1px),
+    radial-gradient(circle at center, rgb(15 118 110 / 0.1) 2px, transparent 2px);
+  background-size: 34px 34px, 22px 22px, 52px 52px;
+  background-position: 0 0, 11px 16px, 26px 9px;
+  -webkit-mask-image: radial-gradient(
+    ellipse 88% 78% at 50% 45%,
+    rgb(0 0 0 / 1) 0%,
+    rgb(0 0 0 / 0.45) 55%,
+    transparent 78%
+  );
+  mask-image: radial-gradient(
+    ellipse 88% 78% at 50% 45%,
+    rgb(0 0 0 / 1) 0%,
+    rgb(0 0 0 / 0.45) 55%,
+    transparent 78%
+  );
+}
