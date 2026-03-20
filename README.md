@@ -1,4 +1,4 @@
-# HealthCore · B2B Clinical Suite
+# HealthCare · Clinical Suite
 
 Next.js (App Router), React 19, TypeScript, Tailwind CSS v4, Context API, Firebase Auth, and a service worker to show local notifications.
 

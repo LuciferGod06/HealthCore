@@ -7,14 +7,14 @@ self.addEventListener("activate", (event) => {
 });
 
 self.addEventListener("push", (event) => {
-  let payload = { title: "HealthCore", body: "" };
+  let payload = { title: "HealthCare", body: "" };
   try {
     if (event.data) payload = { ...payload, ...event.data.json() };
   } catch (_) {}
   event.waitUntil(
     self.registration.showNotification(payload.title, {
       body: payload.body,
-      tag: "healthcore-push",
+      tag: "healthcare-push",
     })
   );
 });

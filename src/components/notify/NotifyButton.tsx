@@ -44,7 +44,7 @@ export function NotifyButton() {
     if ("serviceWorker" in navigator) {
       try {
         const reg = await navigator.serviceWorker.ready;
-        await reg.showNotification("HealthCore", options);
+        await reg.showNotification("HealthCare", options);
         showTemp("Notification sent.");
         return;
       } catch {
@@ -52,7 +52,7 @@ export function NotifyButton() {
     }
 
     try {
-      new Notification("HealthCore", options);
+      new Notification("HealthCare", options);
       showTemp("Sent via browser (no service worker).");
     } catch {
       showTemp("Notification failed to show.");

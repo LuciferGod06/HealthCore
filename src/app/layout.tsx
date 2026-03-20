@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "HealthCore · B2B Clinical Suite",
+  title: "HealthCare · Clinical Suite",
   description: "Healthcare operations dashboard",
 };
 

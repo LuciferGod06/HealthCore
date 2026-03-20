@@ -77,7 +77,7 @@ export default function LoginPage() {
         <div className="flex flex-col items-center gap-3 text-center">
           <LogoMark className="h-12 w-12 text-xl" />
           <div>
-            <p className="text-2xl font-semibold tracking-tight">HealthCore B2B</p>
+            <p className="text-2xl font-semibold tracking-tight">HealthCare Clinical Suite</p>
             <p className="text-sm text-[var(--muted)]">Secure access for care teams</p>
           </div>
         </div>
