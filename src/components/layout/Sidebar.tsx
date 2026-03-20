@@ -17,7 +17,7 @@ export function Sidebar() {
       <div className="flex items-center gap-3 px-1">
         <LogoMark />
         <div>
-          <p className="text-sm font-semibold tracking-tight">HealthCore</p>
+          <p className="text-sm font-semibold tracking-tight">HealthCare</p>
           <p className="text-xs text-[var(--muted)]">Clinical Suite</p>
         </div>
       </div>
